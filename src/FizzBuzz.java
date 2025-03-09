@@ -67,7 +67,7 @@ public class FizzBuzz {
         System.out.println("Multiplos 3 :"+new DecimalFormat("###,###,###").format(contMult3));
         System.out.println("Multiplos3y5:"+new DecimalFormat("###,###,###").format(contMultAmbos));
         System.out.println("Sin Multipos:"+new DecimalFormat("###,###,###").format(contMultOtros));
-        System.out.println("************-------************");
+        System.out.println("************---------************");
 
 
     }
