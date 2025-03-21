@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Fibonacci {
 
     public static void main(String[] args) {
-        double numActual = 0,numAnterior = 0,fiboAux = 0;
-        int contador = 0,maxFibo = 0;
+        double numActual = 0, numAnterior = 0, fiboAux = 0;
+        int contador = 0, maxFibo = 0;
         // Valida que la entrada sea númerica
         Scanner sc = new Scanner(System.in);
         System.out.println("¿Cuantos números deseas mostrar para la serie de Fibonacci?");
@@ -32,7 +32,7 @@ public class Fibonacci {
         while (contador < maxFibo) {
             contador++;
             fiboAux = numAnterior + numActual;
-            System.out.println("CONTADOR:"+contador+"-"+new DecimalFormat("###,###,###,###,###,###").format(fiboAux));
+            System.out.println("CONTADOR:" + contador + "-" + new DecimalFormat("###,###,###,###,###,###").format(fiboAux));
             numAnterior = numActual;
             if (numActual == 0) {
                 numActual++;
